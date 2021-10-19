@@ -5,7 +5,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { ElementsContainerComponent } from './components/elements-container/elements-container.component';
 import { ArrowContainerComponent } from './components/arrow-container/arrow-container.component';
-
+import { RouterModule } from '@angular/router'
 
 @NgModule({
   declarations: [
@@ -16,7 +16,8 @@ import { ArrowContainerComponent } from './components/arrow-container/arrow-cont
     ArrowContainerComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,

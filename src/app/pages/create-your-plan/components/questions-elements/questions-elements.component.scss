@@ -1,0 +1,25 @@
+.Container{
+    background: #F3F1EB;
+    width: 90%;
+    max-width: 300px;
+    margin: 30px auto;
+    border-radius: 5px;
+    transition: background .5s ease;
+    min-height: 225px;
+    display: flex;
+    align-items: center;
+    div{
+        padding: 30px 20px;
+        h3{
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    &:hover,
+    &:active{
+        background: #FDD5BA;
+    }
+}

@@ -10,6 +10,7 @@ import { HowItWorksComponent } from './components/how-it-works/how-it-works.comp
 import { HowItWorksElementComponent } from './components/how-it-works-element/how-it-works-element.component'
 import { SharedModule } from '../../shared/shared.module';
 import { BannerContainerComponent } from './components/banner-container/banner-container.component'
+import { RouterModule } from '@angular/router'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BannerContainerComponent } from './components/banner-container/banner-c
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
+    RouterModule
   ]
 })
 export class HomeModule { }

@@ -22,6 +22,10 @@ footer{
             letter-spacing: 2px;
             margin-bottom: 6px;
             text-transform: uppercase;
+            color: rgb(179, 179, 179);
+            &.active{
+                color: #0D8784;
+            }
         }
     }
     .Social{

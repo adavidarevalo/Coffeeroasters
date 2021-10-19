@@ -1,9 +1,15 @@
 <header>
-    <img src='./assets/images/shared/logo.svg' alt='Logo'/>
+    <a routerLink='/home' >
+        <img src='./assets/images/shared/logo.svg' alt='Logo'/>
+    </a> 
     <nav>
-        <a routerLink='home'>Home</a>
-        <a routerLink='aboutUs'>About Us</a>
-        <a routerLink='createYourPlan'>Create your Plan</a>
+        <a 
+        routerLink='/home' 
+        routerLinkActive='active'>Home</a>
+        <a 
+        routerLink='aboutUs' 
+        routerLinkActive='active'>About Us</a>
+        <a routerLink='createYourPlan' routerLinkActive='active'>Create your Plan</a>
     </nav>
     <img 
     (click)='clickMenu()'
@@ -11,7 +17,7 @@
     src='./assets/images/shared/bars-solid.svg' alt='Menu'/>
 </header>
 <div class="MenuNav" [class.active]='Menu'>
-    <a routerLink='home'>Home</a>
-    <a routerLink='aboutUs'>About Us</a>
-    <a routerLink='createYourPlan'>Create your Plan</a>
+    <a routerLink='/home' routerLinkActive='active' (click)='closeMenu()'>Home</a>
+    <a routerLink='aboutUs' routerLinkActive='active' (click)='closeMenu()'>About Us</a>
+    <a routerLink='createYourPlan' routerLinkActive='active' (click)='closeMenu()'>Create your Plan</a>
 </div>

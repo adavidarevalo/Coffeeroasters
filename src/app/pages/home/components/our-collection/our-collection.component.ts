@@ -23,6 +23,11 @@ export class OurCollectionComponent implements OnInit {
       title:'Gran Espresso',
       paragraph: 'Light and flavorful blend with cocoa and black pepper for an intense experience.'
     },
+    {
+      image: './assets/images/home/image-danche.png',
+      title:'Danche',
+      paragraph: 'Ethiopian hand-harvested blend densely packed with vibrant fruit notes.'
+    },
   ]
 
   constructor() { }

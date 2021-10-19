@@ -23,6 +23,10 @@ const routes: Routes = [
       {
         path: 'createYourPlan',
         loadChildren: () => import('./pages/create-your-plan/create-your-plan.module').then(m => m.CreateYourPlanModule)
+      },
+      {
+        path: '**',
+        loadChildren: () => import('./pages/not-found/not-found.module').then(m=>m.NotFoundModule)
       }
     ]
   }

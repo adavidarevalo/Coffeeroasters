@@ -18,3 +18,15 @@ export interface HeadquartersData{
     neighborhood: string,
     phone: string
 }
+
+export interface questions{
+    title: string,
+    first: QuestionsElements,
+    second: QuestionsElements,
+    third: QuestionsElements,
+}
+
+export interface QuestionsElements{
+    title: string,
+    paragraph: string
+}

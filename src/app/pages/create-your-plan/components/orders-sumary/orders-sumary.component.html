@@ -1,0 +1,24 @@
+<section>
+    <div class="Container">
+        <div>
+            <h3>ORDER SUMMARY</h3>
+            <p>“I drink coffee <span>Espresso</span>, with a <span>Blended</span> type of bean. <span><input type='text' [(ngModel)]='text'/></span> ground ala <span>Wholebean</span>, sent to me <span>Every 2</span> weeks”</p>
+        </div>
+    </div>
+    <button
+    (click)='changeModal()'
+    >Create my plan!</button>
+</section>
+
+<section 
+*ngIf='modal'
+class="Modal">
+    <div class="ModalContainer">
+        <div>
+        <h3>ORDER SUMMARY</h3>
+        <p>“I drink coffee <span>Espresso</span>, with a <span>Blended</span> type of bean. <span>{{text}}</span> ground ala <span>Wholebean</span>, sent to me <span>Every 2</span> weeks”</p>
+        <p>Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discoun codes can be rendered at the checkout.</p>
+    </div>
+    <button (click)='changeModal()'>Checkout</button>
+    </div>
+</section>

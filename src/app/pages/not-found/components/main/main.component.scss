@@ -1,0 +1,27 @@
+section{
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    div{
+        text-align: center;
+        margin-bottom: 20px;
+        h2{
+            font-size: 4rem;
+            letter-spacing: 3px;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+    img{
+        border-radius: 10px;
+    }
+    @media (min-width: 700px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

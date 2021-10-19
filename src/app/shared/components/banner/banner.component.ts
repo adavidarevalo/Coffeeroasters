@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { QuestionsElements } from '../../../models/genenral.models'
 
 @Component({
   selector: 'app-banner',
@@ -6,13 +7,17 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  @Input() data: any = {
-    image:''
+  @Input() data: QuestionsElements = {
+    title:'',
+    paragraph: ''
   }
+  Create: boolean = false
 
   constructor() { }
 
   ngOnInit(): void {
+    if(this.data.title === 'Create Plan'){
+      this.Create = true
+    }
   }
-
 }

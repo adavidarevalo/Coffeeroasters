@@ -15,5 +15,8 @@ export class HeaderComponent implements OnInit {
   clickMenu(){
     this.Menu = !this.Menu
   }
+  closeMenu(){
+    this.Menu = false
+  }
 
 }

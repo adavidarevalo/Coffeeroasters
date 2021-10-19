@@ -6,6 +6,10 @@ section{
     width: 90%;
     margin: 40px auto;
     border-radius: 10px;
+    app-arrow-container{
+        position: relative;
+        top: 30px;
+    }
     div{
       padding: 20px;
       display: flex;

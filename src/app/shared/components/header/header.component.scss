@@ -11,6 +11,15 @@ header{
         font-weight: 500;
         text-transform: uppercase;
         display: none;
+        a{
+            color: rgb(54, 54, 54);
+            &.active{
+                color: #0D8784;
+            }
+            &:hover{
+                border-bottom: 2px solid #0D8784;
+            }
+        }
     }
     .menu-icon{
         width: 20px;
@@ -36,13 +45,17 @@ header{
     flex-direction: column;
     padding: 20px;
     transition: all 1s ease;
-    transform: translateY(-200px); 
+    transform: translateY(-250px); 
     a{
         font-size: 1.1rem;
         font-weight: 500;
         letter-spacing: 2px;
         margin-bottom: 10px;
         text-transform: uppercase;
+        color: rgb(196, 196, 196);
+        &.active{
+            color: #0D8784;
+        }
     }
     &.active{
         transform: translateY(0px);

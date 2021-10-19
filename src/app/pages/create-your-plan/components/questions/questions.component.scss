@@ -1,0 +1,22 @@
+mat-accordion{
+    width: 90%;
+    margin: 0 auto;
+    mat-expansion-panel{
+        margin-bottom: 40px;
+        max-width: 1070px;
+        margin: 0 auto;
+        mat-expansion-panel-header{
+            margin-block: 20px;
+        }
+    }
+}
+h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #5a5a5a;
+}
+.QuestionsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
