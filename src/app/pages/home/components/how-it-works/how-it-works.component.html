@@ -1,18 +1,8 @@
 <section>
-    <h2>How it works</h2>
-    <div class='ArrowContainer'>
-        <div class="bar"></div>
-        <div class="circleContainer">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-        </div>
-    </div>
-    <div class="Elements">
-        <app-how-it-works-element 
-        *ngFor='let data of dataContainer'
-        [data]='data'
-        ></app-how-it-works-element>
-    </div>
-    <a to='/'>Create your plan</a>
+  <h2>How it works</h2>
+  <app-arrow-container></app-arrow-container>
+  <div class="Elements">
+    <app-how-it-works-element *ngFor='let data of dataContainer' [data]='data'></app-how-it-works-element>
+  </div>
+  <a to='/'>Create your plan</a>
 </section>

@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { ElementsContainerComponent } from './components/elements-container/elements-container.component';
+import { ArrowContainerComponent } from './components/arrow-container/arrow-container.component';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ElementsContainerComponent } from './components/elements-container/elem
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    ElementsContainerComponent
+    ElementsContainerComponent,
+    ArrowContainerComponent
   ],
   imports: [
     CommonModule
@@ -20,7 +22,8 @@ import { ElementsContainerComponent } from './components/elements-container/elem
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    ElementsContainerComponent
+    ElementsContainerComponent,
+    ArrowContainerComponent
   ]
 })
 export class SharedModule { }

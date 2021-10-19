@@ -1,9 +1,7 @@
 <section>
-    <div>
-        <app-elements-container
-        *ngFor='let element of DataContainer'
-        [data]='element'
-        [changeColor]='true'
-        ></app-elements-container>
-    </div>
+  <app-arrow-container></app-arrow-container>
+  <div>
+    <app-elements-container *ngFor='let element of DataContainer' [data]='element' [changeColor]='true'>
+    </app-elements-container>
+  </div>
 </section>

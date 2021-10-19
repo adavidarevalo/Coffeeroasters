@@ -3,4 +3,13 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 90%;
+    margin: 40px auto;
+    border-radius: 10px;
+    div{
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
 }
