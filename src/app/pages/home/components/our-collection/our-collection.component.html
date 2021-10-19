@@ -1,0 +1,9 @@
+<section>
+    <h2>Our Collection</h2>
+    <div>
+        <app-collection-elements 
+        *ngFor='let element of ElementContainer'
+        [data] = 'element'
+        ></app-collection-elements>
+    </div>
+</section>

@@ -1,0 +1,17 @@
+<header>
+    <img src='./assets/images/shared/logo.svg' alt='Logo'/>
+    <nav>
+        <a routerLink='home'>Home</a>
+        <a routerLink='aboutUs'>About Us</a>
+        <a routerLink='createYourPlan'>Create your Plan</a>
+    </nav>
+    <img 
+    (click)='clickMenu()'
+    class="menu-icon"
+    src='./assets/images/shared/bars-solid.svg' alt='Menu'/>
+</header>
+<div class="MenuNav" [class.active]='Menu'>
+    <a routerLink='home'>Home</a>
+    <a routerLink='aboutUs'>About Us</a>
+    <a routerLink='createYourPlan'>Create your Plan</a>
+</div>

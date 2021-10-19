@@ -1,0 +1,35 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-block: 25px;
+    max-width: 300px;
+    img{
+        width: 100%;
+    }
+    div{
+        position: relative;
+        text-align: center;
+        h3{
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: .8rem;
+        }
+    }
+    @media (min-width: 500px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        div{
+            h3{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 1.1rem;
+                line-height: 25px;
+            }
+        }
+    }
+}

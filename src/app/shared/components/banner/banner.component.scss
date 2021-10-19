@@ -1,0 +1,27 @@
+section{
+    width: 90%;
+    margin: 0 auto;
+    background-image: url('../../../../assets/images/about/image-hero-whitecup.jpg');
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    div{
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        h2{
+            font-size: 2rem;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 1rem;
+            line-height: 25px;
+        }
+    }
+}

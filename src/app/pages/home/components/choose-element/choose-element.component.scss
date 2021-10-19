@@ -1,0 +1,24 @@
+.container{
+    background: #0D8784;
+    padding: 40px 20px;
+    border-radius: 10px;
+    max-width: 250px;
+    min-height: 256px;
+    margin-block: 25px;
+    img{
+        margin-bottom: 25px;
+    }
+    div{
+        h3{
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 1.1rem;
+            line-height: 27px;
+        }
+    }
+    @media (min-width: 500px){
+        margin: 25px;
+    }
+}
