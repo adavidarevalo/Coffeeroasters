@@ -12,6 +12,7 @@ export class ElementsContainerComponent implements OnInit {
     title: '',
     paragraph:''
   }
+  @Input() changeColor: boolean = false
   constructor() { }
 
   ngOnInit(): void {
