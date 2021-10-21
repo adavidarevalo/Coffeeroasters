@@ -26,6 +26,9 @@ section{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        @media (min-width: 1000px) {
+            margin-top: 60px;
+          }
     }
     @media (min-width: 1300px){
         a{

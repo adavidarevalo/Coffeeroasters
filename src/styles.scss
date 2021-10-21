@@ -18,9 +18,13 @@ h6 {
 p {
   margin: 0;
 }
-a{
+a, button{
     cursor: pointer;
     text-decoration: none;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+section{
+  max-width: 1200px;
+}

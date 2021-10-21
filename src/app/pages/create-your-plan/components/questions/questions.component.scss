@@ -1,10 +1,14 @@
 mat-accordion{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     mat-expansion-panel{
         margin-bottom: 40px;
-        max-width: 1070px;
+        max-width: 1200px;
         margin: 0 auto;
+        background: none;
+        border: none;
+        cursor: pointer;
+        box-shadow: none;
         mat-expansion-panel-header{
             margin-block: 20px;
         }
