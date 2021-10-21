@@ -20,7 +20,10 @@ section{
         color: white;
         border-radius: 5px;
         box-shadow: 7px 6px 20px 1px rgba(0, 0, 0, 0.1);
-        background: #0E8784;;
+        background: #0E8784;
+        &:hover{
+            background: #095250;
+        }
     }
     .Elements{
         display: flex;

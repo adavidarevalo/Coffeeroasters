@@ -41,6 +41,9 @@ section{
         border: none;
         border-radius: 5px;
         margin-top: 20px;
+        &:hover{
+            background: #095250;
+        }
     }
 }
 .Modal{
@@ -90,6 +93,9 @@ section{
             border: none;
             border-radius: 5px;
             margin-block: 20px;
+            &:hover{
+                background: #095250;
+            }
         }
     }
 }
